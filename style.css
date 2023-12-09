@@ -103,3 +103,12 @@
 .conteudo-paragrafo{
     font-family: var(--fonte-primaria);
 }
+.rodape{
+    display: flex;
+    font-family: var(--fonte-secundaria);
+    font-size: 18px;
+    font-weight: 800;
+    padding: 2%;
+    background-color: var(--cor-fundo-box);
+    justify-content: center;
+}
