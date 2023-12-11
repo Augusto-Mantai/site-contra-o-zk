@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Poppins&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --cor-secundaria: #BFC5D9;
+    --cor-fundo: #f5f5f5;
+    --cor-fundo-paragrafo: #8089A6;
+    --cor-fundo-box: #344459;
+    --cor-fonte-1: #f5f5f5;
+    --cor-fonte-links: #555bc0; 
+    --fonte-primaria: 'Poppins', sans-serif;
+    --fonte-secundaria: 'Source Code Pro', monospace;
+}
+.principal{
+    background: linear-gradient(45deg, #151515,#011140);
+    box-sizing: border-box;
+    color: var(--cor-fonte-1);
+}
+
+.conteudo-principal{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 4%;
+    color: var(--cor-fonte-1);
+}
+
+.conteudo-titulo{
+    display: flex;
+    background-color: #0c1c49;
+    align-items: center;
+    padding: 2%;
+    margin: 30px;
+    font-family: var(--fonte-secundaria);
+    font-size: 42px;
+    color: var(--cor-fundo);
+}
+.subtitulo-geral{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 32px;
+    padding: 2%;
+    
+}
+.foto-do-zk{
+    margin: 5%;
+    padding: 0%;
+    width: 40%;
+    border-radius: 4%;
+    border-width: 4px;
+    border-style: solid;
+    border-color: var(--cor-secundaria);
+}
+
+.paragrafos-titulo{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 4px;
+    padding: 0% 15% 4% 15%;
+    margin: 0%;
+    font-family: var(--fonte-primaria);
+    font-size: 24px;
+    
+}
+.links-corpo{
+    color: var(--cor-fonte-links);
+    font-weight: 800;
+    text-decoration: none;
+}
+.links-corpo:hover{
+    color: var(--cor-fundo)
+}
+
+.conteudo-paragrafo-titulo{
+    display: flex;
+    gap: 5px;
+    flex-direction: column;
+    font-family: var(--fonte-primaria);
+}
+.subtitulo-lista{
+    border-width: 5px;
+    border-style: solid;
+    border-color: var(--cor-fonte-links);
+    background-color: var(--cor-fundo-paragrafo);
+    margin: 0% 15% 0% 15%;
+    font-family: var(--fonte-secundaria);
+    padding: 4% 13% 4% 13%;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-size: 18px;
+}
+.conteudo-paragrafo{
+    font-family: var(--fonte-primaria);
+}
+.rodape{
+    display: flex;
+    font-family: var(--fonte-secundaria);
+    font-size: 18px;
+    font-weight: 800;
+    padding: 2%;
+    background-color: var(--cor-fundo-box);
+    justify-content: center;
+}
